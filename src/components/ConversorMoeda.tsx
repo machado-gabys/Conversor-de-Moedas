@@ -43,14 +43,14 @@ const ConversorMoeda: React.FC = () => {
         setAmount={handleValorChange}
         currency={moedaOrigem}
         setCurrency={setMoedaOrigem}
-        title="De Moeda"
+        title="De"
       />
       <CurrencyInput
         amount={valorConvertido}
         setAmount={setValorConvertido}
         currency={moedaDestino}
         setCurrency={setMoedaDestino}
-        title="Para Moeda"
+        title="Para"
         isOutput
       />
       {erro && <p style={{ color: 'red' }}>{erro}</p>}
